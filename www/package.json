@@ -1,29 +1,11 @@
 {
-    "name": "product-x",
-    "displayName": "product-x-beta",
-    "version": "1.0.0",
-    "description": "A sample AngularJS && Apache Cordova application that responds to the deviceready event.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Apache Cordova Team - Angular Seed Project - Jessica Burnett",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "cordova-android": "^6.2.3",
-        "cordova-ios": "^4.4.0",
-        "cordova-plugin-whitelist": "^1.3.2"
-    },
-    "cordova": {
-        "plugins": {
-            "cordova-plugin-whitelist": {}
-        },
-        "platforms": [
-            "android",
-            "ios"
-        ]
-    },
-    "devDependencies": {
+  "name": "angular-seed",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for AngularJS",
+  "repository": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "devDependencies": {
     "bower": "^1.7.7",
     "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
@@ -33,8 +15,8 @@
     "karma-jasmine": "^0.3.8",
     "karma-junit-reporter": "^0.4.1",
     "protractor": "^4.0.9"
-    },
-    "scripts": {
+  },
+  "scripts": {
     "postinstall": "bower install",
 
     "update-deps": "npm update",
